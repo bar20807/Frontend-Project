@@ -1,7 +1,53 @@
-# Vue 3 + Vite
+# Proyecto Frontend con React y Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este proyecto frontend fue desarrollado utilizando el framework de React en JavaScript y aprovechando la potencia de Tailwind CSS para el diseño de la interfaz de usuario.
 
-## Recommended IDE Setup
+## Pasos para iniciar el proyecto
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. Crear el proyecto usando Vite y el template de React:
+    ```bash
+    npm create vite@latest frontend-project -- --template react
+    ```
+
+2. Instalar Tailwind CSS, PostCSS y Autoprefixer:
+    ```bash
+    npm install -D tailwindcss postcss autoprefixer
+    ```
+
+3. Inicializar Tailwind CSS:
+    ```bash
+    npx tailwindcss init -p
+    ```
+
+4. Manejo de solicitudes a la API con Axios:
+    ```bash
+    npm install axios
+    ```
+
+5. Manejo de rutas utilizando Vue Router:
+    ```bash
+    npm install vue-router
+    ```
+
+## Iniciar el proyecto
+
+Una vez realizado los pasos anteriores, para ejecutar el proyecto, sigue estos pasos:
+
+1. Navega al directorio del proyecto:
+    ```bash
+    cd frontend-project
+    ```
+
+2. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+Esto iniciará el servidor de desarrollo y podrás acceder al proyecto desde tu navegador visitando la URL proporcionada por Vite.
+
+## Estructura del proyecto
+
+- `/src`: Contiene el código fuente del proyecto.
+- `/public`: Directorio de archivos estáticos como imágenes, íconos, etc.
+- `/src/components`: Componentes reutilizables de React.
+
